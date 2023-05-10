@@ -3,7 +3,7 @@ import NextLink from "next/link";
 import { useEffect } from "react";
 import { AiOutlineRight } from "react-icons/ai";
 import { useInView } from "react-intersection-observer";
-import { TApiAllCategoriesResp } from "../types";
+import { TApiAllCategoriesResp } from "../../types";
 
 interface IProductGrid extends TApiAllCategoriesResp {
     showLink: boolean;

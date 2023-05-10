@@ -1,4 +1,4 @@
-const Skelton = () => {
+const Skeleton = () => {
     return (
         <>
             <div className="mt-12 h-8 w-40 rounded-lg bg-gray-200" />
@@ -19,4 +19,4 @@ const Skelton = () => {
     );
 };
 
-export default Skelton;
+export default Skeleton;

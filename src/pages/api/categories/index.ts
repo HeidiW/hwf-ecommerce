@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import nc from "next-connect";
-import { prisma } from "../../../lib/prisma";
+import nc from 'next-connect';
+import { prisma } from "../../../app/lib/prisma";
 import { TApiAllCategoriesResp, TApiErrorResp } from "../../../types";
 
 const getCategories = async (
@@ -37,6 +37,7 @@ const getCategories = async (
     }
 };
 
-const handler = nc({ attachParams: true }).get(getCategories);
+const handler = nc().get(getCategories);
 
 export default handler;
+

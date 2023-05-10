@@ -1,9 +1,10 @@
 import { useQuery } from "@tanstack/react-query";
 import type { NextPage } from "next";
 import Head from "next/head";
-import Navbar from "../components/Navbar";
-import ProductGrid from "../components/ProductGrid";
-import Skelton from "../components/Skelton";
+import Navbar from "../app/components/Navbar";
+import ProductGrid from "../app/components/ ProductGrid";
+import Skeleton from "../app/components/Skeleton";
+
 
 const Home: NextPage = () => {
     const getAllCategories = async () => {
@@ -21,6 +22,7 @@ const Home: NextPage = () => {
         getAllCategories
     );
 
+
     const categories = data?.categories;
 
     return (
@@ -34,7 +36,7 @@ const Home: NextPage = () => {
             <main className="container mx-auto">
                 <Navbar />
                 {isLoading ? (
-                    <Skelton />
+                    <Skeleton />
                 ) : (
                     <>
                         {categories && categories?.length > 0 && (

@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import nc from "next-connect";
-import { prisma } from "../../../lib/prisma";
+import { default as nc } from "next-connect";
+import { prisma } from "../../../app/lib/prisma";
 import {
     TApiErrorResp,
     TApiSingleCategoryWithProductResp
