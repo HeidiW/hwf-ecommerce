@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import { default as nc } from "next-connect";
+import nc from "next-connect";
 import { prisma } from "../../../app/lib/prisma";
 import {
     TApiErrorResp,

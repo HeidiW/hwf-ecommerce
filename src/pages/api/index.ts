@@ -37,6 +37,6 @@ const getCategories = async (
     }
 };
 
-const handler = nc().get(getCategories);
+const handler = nc({ attachParams: true }).get(getCategories);
 
 export default handler;
