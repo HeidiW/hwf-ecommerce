@@ -7,7 +7,7 @@ const Navbar = () => {
                 <div className="flex justify-start lg:w-0 lg:flex-1">
                     <h1 className="text-2xl">
                         <NextLink href="/" className="cursor-pointer">
-                            Ecomm App
+                            Heidi Williams Foy's Ecomm App
                         </NextLink>
                     </h1>
                 </div>

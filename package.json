@@ -28,7 +28,8 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
     "react-intersection-observer": "^9.4.3",
-    "stripe": "^12.4.0"
+    "stripe": "^12.4.0",
+    "tiktok-pixel": "^2.0.3"
   },
   "devDependencies": {
     "@tanstack/react-query-devtools": "^4.29.6",

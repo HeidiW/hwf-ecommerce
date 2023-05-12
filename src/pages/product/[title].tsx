@@ -67,7 +67,7 @@ const SingleProduct = () => {
             <main className="container mx-6 md:mx-auto">
                 <Navbar />
                 {isLoading ? (
-                    <Skelton />
+                    <Skeleton />
                 ) : (
                     <div className="bg-white">
                         <div className="pt-6 pb-16 sm:pb-24">

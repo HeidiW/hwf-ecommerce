@@ -2,7 +2,7 @@ import { useQuery } from "@tanstack/react-query";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Navbar from "../app/components/Navbar";
-import ProductGrid from "../app/components/ ProductGrid";
+import ProductGrid from "../app/components/ProductGrid";
 import Skeleton from "../app/components/Skeleton";
 
 
