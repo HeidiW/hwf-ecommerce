@@ -1,5 +1,8 @@
 I created this site to learn how to build an ecommerce site from start to finish, while implementing the Tiktok pixel js.
 
+The full site can be found here: https://hwf-tiktok.vercel.app/
+Although I was not successful in getting the pixel fully implemented yet, I plan to continue working with this test site.
+
 Big thanks to Sharvin Shah of Free Code Camp!
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
