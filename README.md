@@ -1,4 +1,4 @@
-I created this site to learn how to build an ecommerce site from start to finish, while implementing the Tiktok pixel js.
+I created this site to learn how to build an ecommerce site from start to finish.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
