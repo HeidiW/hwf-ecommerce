@@ -3,8 +3,18 @@ const nextConfig = {
     reactStrictMode: true,
     swcMinify: true,
     images: {
-        domains: ["https://picsum.photos/200"],
-    },
+          remotePatterns: [
+            {
+              protocol: 'https',
+              hostname: 'picsum.photos',
+              port: '',
+              pathname: '/200',
+            },
+          ],
+        },
 };
 
 module.exports = nextConfig
+
+    
+  
